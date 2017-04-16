@@ -1,5 +1,7 @@
 # آموزش نصب
 اگر سرور خام هستش باید کد های زیر را به ترتیب وارد کنید
+
+
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev
 sudo pip3 install redis
 sudo service redis-server restart
@@ -20,4 +22,4 @@ screen ./permag.sh
 cd antispam
 killall screen
 screen ./permag.sh
-.
+
