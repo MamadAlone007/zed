@@ -16,7 +16,7 @@ git clone https://github.com/TeleSeedTM/antispam.git && cd antispam && chmod +x 
 cd antispam
 screen ./permag.sh
 ----------------------------------------------------------
-* کد های لانچ پلاگین
+# کد های لانچ پلاگین
 cd antispam
 killall screen
 screen ./permag.sh
