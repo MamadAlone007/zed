@@ -20,3 +20,4 @@ screen ./permag.sh
 cd antispam
 killall screen
 screen ./permag.sh
+.
