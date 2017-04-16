@@ -11,15 +11,29 @@ sudo apt-get upgrade
 sudo apt-get dist-upgrade
 sudo ppa-purge
 -----------------------------------------------------------
+
+
 خب ترمینال را میبندیم و دوباره باز میکنیم سپس کد های زیر
 git clone https://github.com/TeleSeedTM/antispam.git && cd antispam && chmod +x permag.sh && ./permag.sh install && ./permag.sh
 -----------------------------------------------------------
 # کد های لانچ
+
+
 cd antispam
+
+
 screen ./permag.sh
 ----------------------------------------------------------
 # کد های لانچ پلاگین
+
+
 cd antispam
+
+
 killall screen
+
+
 screen ./permag.sh
+
+
 
