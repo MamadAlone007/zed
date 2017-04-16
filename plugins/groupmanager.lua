@@ -2877,7 +2877,7 @@ text = [[
 
 در حال حاضر زبان ربات انگلیسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
 *!setlang fa*
-
+@TeleSeedTM
 👑*!setowner* `[username|id|reply]` 
 _Set Group Owner(Multi Owner)_
 
@@ -2987,7 +2987,7 @@ _set expire for group_
 🎗*!setwelcome* متن پیام
 ➕*!welcome enable*
 ➖*!welcome disable*
-_set welcome for group_
+@TeleSeedTM
 〰〰〰〰〰
 📣*!broadcast* text
 _Send Msg To All Groups_
@@ -3017,7 +3017,8 @@ text = [[
 
 👽آگاهی از آنلاین بودن ربات
 #انلاینی
-
+@TeleSeedTM
+			
 ➖➖➖➖➖
 در حال حاضر زبان ربات فارسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
 *!setlang en*
@@ -3077,6 +3078,7 @@ text2 = [[
 🔒*!lock fosh*
 🔓*!unlock fosh*
 〰〰〰〰〰
+@TeleSeedTM
 ...
 ]]
 return text2
@@ -3152,6 +3154,7 @@ text3 = [[
 🔇*!mt 0 1*
 🔊*!unmt*
 〰〰〰〰〰
+@TeleSeedTM
 ...
 ]]
 return text3
@@ -3257,9 +3260,7 @@ text4 = [[
 📣 *!broadcast* متن پیام
 💬 ارسال یک پیام به همه گروهایی که ربات مدیر است
 〰〰〰〰〰
-⚙*!autoleave enable*
-⚙*!autoleave disable*
-💬 تنظیم خارج شدن ربات
+@TeleSeedTM
 ...
 ]]
 return text4
@@ -3440,8 +3441,3 @@ patterns ={
 run=run,
 pre_process = pre_process
 }
--- کد های پایین در ربات نشان داده نمیشوند
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
