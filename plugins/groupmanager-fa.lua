@@ -1894,7 +1894,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نمیباشید"
+ return "شما که مدیر گروه نیستی"
 end
 end
 
@@ -2068,7 +2068,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نمیباشید"
+ return "شما مدیر گروه نیستی"
 end
 end
 
