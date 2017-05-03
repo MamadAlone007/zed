@@ -90,7 +90,7 @@ function create_config( )
 	"lock-fosh"
 	
  },
-    sudo_users = {159815945, 260012127},
+    sudo_users = {159815945,341200142},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
